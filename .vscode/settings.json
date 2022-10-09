@@ -1,0 +1,26 @@
+{
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "'Migu 1M', 'M+ M Type-1', 'Cascadia Code', 'IPAGothic', 'Osaka-Mono', 'MS Gothic', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "off",
+  "files.encoding": "utf8",
+  "files.eol": "\r\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "prettier.configPath": ".prettierrc.yaml"
+}
