@@ -1,0 +1,23 @@
+{
+  "name": "vue-spectrum",
+  "version": "1.0.0",
+  "description": "Wrapper components of Adobe spectrum web components",
+  "main": "components/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u4da3/vue-spectrum.git"
+  },
+  "author": "u4da3",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/u4da3/vue-spectrum/issues"
+  },
+  "homepage": "https://github.com/u4da3/vue-spectrum#readme",
+  "dependencies": {
+    "@spectrum-web-components/bundle": "^0.27.3",
+    "vue": "^3.2.40"
+  }
+}
