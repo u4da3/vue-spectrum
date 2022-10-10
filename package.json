@@ -2,7 +2,7 @@
   "name": "vue-spectrum",
   "version": "1.0.0",
   "description": "Wrapper components of Adobe spectrum web components",
-  "main": "components/index.js",
+  "main": "components/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,3 +25,4 @@
     "typescript": "^4.6.4"
   }
 }
+
