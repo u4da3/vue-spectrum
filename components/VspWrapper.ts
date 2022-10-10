@@ -12,7 +12,6 @@ import {
   Text,
 } from 'vue'
 import { hyphenate, camelize, capitalize } from '@vue/shared'
-import { SpCustomElements } from '../SpCustomElements'
 
 export function vspHandlers(events: string[] = [], emitFunc: (event: string, ...args: any[]) => void) {
   const handlers = {} as { [key: string]: (event: Event) => void }
@@ -65,11 +64,6 @@ export function vspWarpper<
     name: options.name,
     props: options.props,
     emits: options.emits,
-    // compilerOptions: {
-    //   isCustomElement(tag: string) {
-    //     return SpCustomElements.includes(tag)
-    //   },
-    // },
     render: vspRender(options.tag, options.emits),
   })
 }
